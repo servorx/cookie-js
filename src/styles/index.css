@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f4e2d8;
+}
+
+#cookie-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#cookie-button img {
+  transition: transform 0.1s ease;
+}
+
+#cookie-button:active img {
+  transform: scale(0.95);
+}
