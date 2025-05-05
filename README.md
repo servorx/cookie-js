@@ -38,8 +38,7 @@ cookie-clicker-clone/
 │  ├─ styles/           # Estilos del juego
 │  ├─ utils/            # Funciones de guardado, formateo, etc.
 │  ├─ main.js           # Entrada principal del juego
-│  └─ index.css         # Estilo base
+│  └─ constants.js      # constantes base
 ├─ index.html           # HTML principal
 ├─ README.md            # Este archivo
-├─ vite.config.js       # Configuración de Vite
 └─ package.json         # Dependencias y scripts
