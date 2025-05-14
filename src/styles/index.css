@@ -1,17 +1,18 @@
 body {
-  font-family: sans-serif;
   text-align: center;
-  background-color: #f4e2d8;
+  font-family: sans-serif;
+  background: #f9f1e7;
 }
 
-#cookie-button {
-  background: none;
-  border: none;
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 #cookie-button img {
-  transition: transform 0.1s ease;
+  transition: transform 0.1s;
 }
 
 #cookie-button:active img {

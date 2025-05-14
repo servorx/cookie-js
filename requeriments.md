@@ -60,3 +60,34 @@ Visuales
     Imágenes propias o sprites de ítems
     Transiciones suaves
     Efectos hover
+
+
+
+full structure
+CHINESE-COOCKIE/
+├─ public/
+│  └─ assets/
+│     ├─ cookie.png
+│     ├─ generator-factory.png
+│     ├─ grandma.png
+├─ src/
+│  ├─ components/
+│  │  ├─ CookieButton.js
+│  │  ├─ GeneratorManager.js
+│  │  ├─ Store.js
+│  │  └─ HUD.js
+│  ├─ data/
+│  │  └─ generators.js       # Base de datos de generadores
+│  ├─ styles/
+│  │  └─ index.css
+│  ├─ utils/
+│  │  ├─ formatter.js        # Para formatear números
+│  │  ├─ saveManager.js      # Guardar/cargar en LocalStorage
+│  │  └─ gameLoop.js         # Loop principal del juego
+│  ├─ constants.js           # Constantes generales
+│  └─ main.js                # Punto de entrada
+├─ index.html
+├─ README.md
+├─ requirements.md
+├─ package.json
+└─ vite.config.js
